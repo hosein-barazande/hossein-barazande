@@ -1,126 +1,36 @@
-# Hossein Barazande
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-> Building digital products that perform, scale and create measurable business value.
+## Getting Started
 
-A premium personal website built with **Next.js**, showcasing software engineering, technical SEO, product development and modern web architecture.
+First, run the development server:
 
-This repository represents more than a portfolio.
-
-It demonstrates how I design, architect, build and optimize scalable digital products with performance, accessibility and long-term maintainability in mind.
-
----
-
-## Project Vision
-
-Create a world-class personal website that reflects:
-
-- Software Engineering
-- Product Thinking
-- Technical SEO
-- Performance Engineering
-- User Experience
-- Modern Web Development
-
-The project is developed as a real software product and will continue to evolve over time.
-
----
-
-## Current Status
-
-🚧 Under Active Development
-
-Current Version
-
-```
-v0.1.0
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
----
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Planned Features
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-- Premium UI
-- Fully Responsive
-- Dark Theme
-- Technical SEO
-- Case Studies
-- Blog (MDX)
-- Interactive Timeline
-- Contact Center
-- QR Contact Card
-- Resume Download
-- GitHub Integration
-- Cloudflare Deployment
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
----
+## Learn More
 
-## Technology Stack
+To learn more about Next.js, take a look at the following resources:
 
-Frontend
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- Next.js
-- React
-- TypeScript
-- Tailwind CSS
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-Deployment
+## Deploy on Vercel
 
-- Cloudflare Pages
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Content
-
-- MDX
-
-Code Quality
-
-- ESLint
-- Prettier
-- Husky
-
----
-
-## Design Principles
-
-- Performance First
-- Accessibility First
-- SEO First
-- Engineering First
-- Clean Architecture
-- Reusable Components
-- Continuous Improvement
-
----
-
-## Project Roadmap
-
-See:
-
-```
-PROJECT_ROADMAP.md
-```
-
----
-
-## Repository Philosophy
-
-Every decision in this project is made with long-term maintainability in mind.
-
-The goal is not only to build an attractive portfolio but to demonstrate engineering quality through architecture, documentation and code.
-
----
-
-## License
-
-MIT License
-
----
-
-## Contact
-
-LinkedIn
-
-GitHub
-
-Website
-
-(Coming Soon)
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
