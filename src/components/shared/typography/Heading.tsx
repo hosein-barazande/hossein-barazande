@@ -1,7 +1,7 @@
 import {ReactNode} from "react";
 
-import {HeadingLevel} from "@/types/Typography";
-import {typography} from "@/styles/typography";
+import type {HeadingLevel} from "@/styles/Typography";
+import {typography} from "@/styles/Typography";
 
 interface HeadingProps {
     level: HeadingLevel;
