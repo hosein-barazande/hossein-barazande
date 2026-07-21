@@ -19,14 +19,14 @@ export default function About() {
                 </div>
 
                 <div className="mt-20 grid gap-6 md:grid-cols-3">
-                    <div className="rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-xl">
+                    <Card className="p-8">
                         <Heading level={3}>Full-Stack Development</Heading>
 
                         <Text className="mt-4">
                             Building scalable web applications using React, Next.js, TypeScript and modern frontend
                             architecture.
                         </Text>
-                    </div>
+                    </Card>
 
                     <Card className="p-8">
                         <Heading level={3}>Technical SEO</Heading>

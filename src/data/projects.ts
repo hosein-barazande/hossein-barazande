@@ -29,7 +29,7 @@ export const projects: Project[] = [
             "A modern portfolio built with Next.js, React, TypeScript and Tailwind CSS, focused on performance, accessibility and SEO.",
 
 
-            image: "/images/projects/portfolio.jpg",
+            image: "/images/projects/portfolio-main.jpg",
 
             imageAlt: "Personal Portfolio Website built with Next.js",
 
@@ -60,7 +60,7 @@ export const projects: Project[] = [
 
         image: "/images/projects/digitizer.jpg",
 
-        imageAlt: "Personal Portfolio Website built with Next.js",
+        imageAlt: "Own Compony Website built with php",
 
 
         technologies: [
@@ -121,7 +121,7 @@ export const projects: Project[] = [
             "Interactive SEO pricing calculator with modern UI and technical SEO best practices.",
 
         image: "/images/projects/seo-calculator.jpg",
-        imageAlt: "Personal Portfolio Website built with Next.js",
+        imageAlt: "To calculate SEO prices online",
 
 
         technologies: [
