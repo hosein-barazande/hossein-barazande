@@ -36,7 +36,7 @@ export const seoCalculator: ProjectDetail = {
       alt: "Display the result of website SEO price with online calculator in an approximate range",
     },
     {
-      src: "/images/projects/seo-calculator/cantant_price",
+      src: "/images/projects/seo-calculator/cantant_price_online.jpg",
       alt: "Online calculator for generating text content based on word count and content type",
     },
   ],

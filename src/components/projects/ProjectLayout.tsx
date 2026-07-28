@@ -8,6 +8,7 @@ import ProjectSidebar from "@/components/projects/ProjectSidebar";
 import ProjectFeatures from "@/components/projects/ProjectFeatures";
 import ProjectResponsibilities from "@/components/projects/ProjectResponsibilities";
 import ProjectMetrics from "@/components/projects/ProjectMetrics";
+import ProjectHeader from "@/components/projects/ProjectHeader";
 
 import {Project} from "@/data/projects";
 import {ProjectDetail} from "@/types/project-detail";
@@ -20,6 +21,7 @@ interface ProjectLayoutProps {
 export default function ProjectLayout({project, detail}: ProjectLayoutProps) {
     return (
         <>
+            <ProjectHeader />
             <ProjectBackground />
 
             <ProjectHero

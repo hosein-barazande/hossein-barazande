@@ -13,7 +13,7 @@ interface ProjectHeroProps {
 
 export default function ProjectHero({title, category, year, description}: ProjectHeroProps) {
     return (
-        <section className="relative overflow-hidden pt-10 pb-14 lg:pt-14 lg:pb-16">
+        <section className="relative overflow-hidden pt-28 pb-14 lg:pt-28 lg:pb-16">
             <div className="absolute inset-0 -z-10">
                 <div className="absolute left-1/2 top-0 h-[520px] w-[520px] -translate-x-1/2 rounded-full bg-cyan-500/10 blur-[140px]" />
 
