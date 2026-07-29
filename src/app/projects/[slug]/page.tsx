@@ -15,11 +15,9 @@ export default async function ProjectPage({params}: ProjectPageProps) {
 
     const project = projects.find((item) => item.slug === slug);
 
-    const detail = projects.find((item) => item.slug === slug);
-
-    if (!project || !detail) {
+    if (!project) {
         notFound();
     }
 
-    return <ProjectLayout project={project} detail={detail} />;
+    return <ProjectLayout project={project} />;
 }

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import Container from "@/components/ui/Container";
 import Section from "@/components/ui/Section";
 
@@ -21,13 +23,13 @@ export default function FeaturedProjects() {
                     </Text>
                 </div>
                 <ProjectGrid projects={projects.filter((project) => project.featured)} />
-                <div className="mt-14 flex justify-center">
-                    <a
+                <div className="mt-12 flex justify-center">
+                    <Link
                         href="/projects"
                         className="rounded-xl border border-white/10 bg-white/5 px-6 py-3 text-sm font-medium text-white transition hover:border-cyan-400 hover:bg-cyan-500/10"
                     >
                         View All Projects →
-                    </a>
+                    </Link>
                 </div>
             </Container>
         </Section>
