@@ -1,7 +1,25 @@
-import { ProjectDetail } from "@/types/project-detail";
+import { Project } from "@/types/project";
 
-export const seoCalculator: ProjectDetail = {
+export const seoCalculator: Project = {
   slug: "seo-calculator",
+
+  id: 4,
+  title: "SEO Calculator",
+  description:
+      "Interactive SEO pricing calculator with modern UI and technical SEO best practices.",
+
+  image: "/images/projects/seo-calculator/cover.jpg",
+  imageAlt: "To calculate SEO prices online",
+
+  year: "2025",
+
+  category: "SEO Tool",
+
+  categories:[
+    "Web Tools",
+  ],
+
+  featured: true,
   
   status: "Completed",
 
@@ -18,6 +36,7 @@ export const seoCalculator: ProjectDetail = {
     "JavaScript",
     "HTML",
     "CSS",
+    "UI/UX",
     "SEO",
   ],
 

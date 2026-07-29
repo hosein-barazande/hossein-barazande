@@ -2,7 +2,7 @@ import Heading from "@/components/shared/typography/Heading";
 
 import ProjectGrid from "./ProjectGrid";
 
-import {Project} from "@/data/projects";
+import {Project} from "@/types/project";
 
 interface ProjectRelatedSectionProps {
     currentSlug: string;

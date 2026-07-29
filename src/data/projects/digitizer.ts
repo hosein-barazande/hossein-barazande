@@ -1,7 +1,29 @@
-import { ProjectDetail } from "@/types/project-detail";
+import { Project } from "@/types/project";
 
-export const digitizer: ProjectDetail = {
+export const digitizer: Project = {
   slug: "digitizer",
+
+  id: 2,
+  title: "Digitizer",
+
+  description:
+      "Company website focused on web development, technical SEO and digital marketing.",
+
+  image: "/images/projects/digitizer/cover.jpg",
+
+  imageAlt: "Own Compony Website built with php",
+
+  year: "2025",
+
+  category: "Company Website",
+
+  categories:[
+    "full Stack",
+    "Portfolio",
+    "seo",
+  ],
+
+  featured: true,
 
   status: "In Development",
 
@@ -13,10 +35,13 @@ export const digitizer: ProjectDetail = {
     "Implemented modern frontend architecture with technical SEO best practices.",
 
   technologies: [
-    "Next.js",
-    "TypeScript",
+    "PHP",
+    "JavaScript",
+    "HTML",
+    "CSS",
     "SEO",
-    "Tailwind CSS",
+    "GEO",
+    "AEO",
   ],
 
   results: [

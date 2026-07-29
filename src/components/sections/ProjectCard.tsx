@@ -20,8 +20,8 @@ interface ProjectCardProps {
 
 export default function ProjectCard({slug, title, description, image, technologies, year, category}: ProjectCardProps) {
     return (
-        <Link href={`/projects/${slug}`}>
-            <Card className="flex h-full flex-col p-6">
+        <Link href={`/projects/${slug}`} className="block h-full w-full">
+            <Card className="flex h-full w-full flex-col p-6">
                 {/* Project Image */}
 
                 <div className="relative mb-6 h-56 overflow-hidden rounded-2xl">

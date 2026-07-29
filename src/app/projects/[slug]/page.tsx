@@ -2,8 +2,7 @@ import {notFound} from "next/navigation";
 
 import ProjectLayout from "@/components/projects/ProjectLayout";
 
-import {projectDetails} from "@/data/project-details";
-import {projects} from "@/data/projects";
+import {projects} from "@/data/projects/index";
 
 interface ProjectPageProps {
     params: Promise<{
@@ -16,7 +15,7 @@ export default async function ProjectPage({params}: ProjectPageProps) {
 
     const project = projects.find((item) => item.slug === slug);
 
-    const detail = projectDetails.find((item) => item.slug === slug);
+    const detail = projects.find((item) => item.slug === slug);
 
     if (!project || !detail) {
         notFound();

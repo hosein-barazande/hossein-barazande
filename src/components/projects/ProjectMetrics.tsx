@@ -3,7 +3,7 @@ import Card from "@/components/ui/Card";
 import Heading from "@/components/shared/typography/Heading";
 import Text from "@/components/shared/typography/Text";
 
-import {ProjectMetric} from "@/types/project-detail";
+import {ProjectMetric} from "@/types/project";
 
 interface ProjectMetricsProps {
     metrics: ProjectMetric[];

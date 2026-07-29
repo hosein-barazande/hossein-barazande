@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import Heading from "@/components/shared/typography/Heading";
 
-import {ProjectGalleryImage} from "@/types/project-detail";
+import {ProjectGalleryImage} from "@/types/project";
 
 interface ProjectGalleryProps {
     images: ProjectGalleryImage[];

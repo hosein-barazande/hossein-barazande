@@ -10,15 +10,13 @@ import ProjectResponsibilities from "@/components/projects/ProjectResponsibiliti
 import ProjectMetrics from "@/components/projects/ProjectMetrics";
 import ProjectHeader from "@/components/projects/ProjectHeader";
 
-import {Project} from "@/data/projects";
-import {ProjectDetail} from "@/types/project-detail";
+import {Project} from "@/types/project";
 
 interface ProjectLayoutProps {
     project: Project;
-    detail: ProjectDetail;
 }
 
-export default function ProjectLayout({project, detail}: ProjectLayoutProps) {
+export default function ProjectLayout({project}: ProjectLayoutProps) {
     return (
         <>
             <ProjectHeader />
@@ -28,7 +26,7 @@ export default function ProjectLayout({project, detail}: ProjectLayoutProps) {
                 title={project.title}
                 category={project.category}
                 year={project.year}
-                description={detail.overview}
+                description={project.overview}
             />
             <ProjectCover image={project.image} alt={project.imageAlt} />
             <ProjectContent
@@ -37,26 +35,26 @@ export default function ProjectLayout({project, detail}: ProjectLayoutProps) {
                         title={project.title}
                         category={project.category}
                         year={project.year}
-                        technologies={detail.technologies}
-                        github={detail.links.github}
-                        demo={detail.links.demo}
-                        status={detail.status}
+                        technologies={project.technologies}
+                        github={project.links.github}
+                        demo={project.links.demo}
+                        status={project.status}
                     />
                 }
             >
-                <ProjectSection title="Overview">{detail.overview}</ProjectSection>
+                <ProjectSection title="Overview">{project.overview}</ProjectSection>
 
-                <ProjectGallery images={detail.gallery} />
+                <ProjectGallery images={project.gallery} />
 
-                <ProjectFeatures features={detail.features} />
+                <ProjectFeatures features={project.features} />
 
-                <ProjectSection title="Problem">{detail.problem}</ProjectSection>
+                <ProjectSection title="Problem">{project.problem}</ProjectSection>
 
-                <ProjectSection title="Solution">{detail.solution}</ProjectSection>
+                <ProjectSection title="Solution">{project.solution}</ProjectSection>
 
-                <ProjectResponsibilities responsibilities={detail.responsibilities} />
+                <ProjectResponsibilities responsibilities={project.responsibilities} />
 
-                <ProjectMetrics metrics={detail.metrics} />
+                <ProjectMetrics metrics={project.metrics} />
             </ProjectContent>
         </>
     );

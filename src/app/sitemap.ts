@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 
-import { projects } from "@/data/projects";
+import { projects } from "@/data/projects/index";
 
 const SITE_URL = "https://hossein-barazande.vercel.app";
 

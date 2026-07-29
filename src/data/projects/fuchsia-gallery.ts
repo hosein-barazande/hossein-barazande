@@ -1,7 +1,42 @@
-import { ProjectDetail } from "@/types/project-detail";
+import { Project } from "@/types/project";
 
-export const fuchsiaGallery: ProjectDetail = {
+export const fuchsiaGallery: Project = {
   slug: "fuchsia-gallery",
+
+  id: 3,
+
+  title: "Fuchsia Gallery",
+
+  description:
+      "Fashion e-commerce website with performance optimization and SEO.",
+
+  image: "/images/projects/fuchsia-gallery/cover.jpg",
+  imageAlt: "Personal Portfolio Website built with Next.js",
+
+
+  technologies: [
+      "WooCommerce",
+      "WordPress",
+      "HTML",
+      "CSS",
+      "PHP",
+      "SEO",
+      "GEO",
+      "AEO",
+      "Technical SEO",
+  ],
+
+  year: "2025",
+
+  category: "E-commerce website",
+
+  categories:[
+    "wordpress",
+    "woocommerce",
+    "seo",
+  ],
+
+  featured: true,
 
   status: "Completed",
 
@@ -12,12 +47,6 @@ export const fuchsiaGallery: ProjectDetail = {
 
   solution:
     "Responsive UI combined with SEO optimization and image performance improvements.",
-
-  technologies: [
-    "WordPress",
-    "WooCommerce",
-    "SEO",
-  ],
 
   results: [
     {

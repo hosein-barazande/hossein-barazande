@@ -1,7 +1,30 @@
-import { ProjectDetail } from "@/types/project-detail";
+import { Project } from "@/types/project";
 
-export const personalPortfolio: ProjectDetail = {
+export const personalPortfolio: Project = {
   slug: "personal-portfolio",
+
+  id: 1,
+
+title: "Personal Portfolio",
+
+description:
+    "A premium personal portfolio built with Next.js, React, TypeScript and Tailwind CSS.",
+
+image: "/images/projects/portfolio/cover.jpg",
+
+imageAlt: "Personal Portfolio Website",
+
+featured: true,
+
+category: "Portfolio",
+
+categories:[
+  "full Stack",
+  "Portfolio",
+  "seo",
+],
+
+year: "2026",
   
   status: "In Development",
 
