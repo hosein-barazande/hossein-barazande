@@ -40,6 +40,7 @@ export default function ProjectLayout({project, detail}: ProjectLayoutProps) {
                         technologies={detail.technologies}
                         github={detail.links.github}
                         demo={detail.links.demo}
+                        status={detail.status}
                     />
                 }
             >

@@ -2,6 +2,8 @@ import { ProjectDetail } from "@/types/project-detail";
 
 export const seoCalculator: ProjectDetail = {
   slug: "seo-calculator",
+  
+  status: "Completed",
 
   overview:
     "Interactive SEO cost calculator for estimating monthly SEO services.",

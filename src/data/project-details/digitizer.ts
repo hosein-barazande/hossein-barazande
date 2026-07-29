@@ -3,6 +3,8 @@ import { ProjectDetail } from "@/types/project-detail";
 export const digitizer: ProjectDetail = {
   slug: "digitizer",
 
+  status: "In Development",
+
   overview: "Corporate website for Digitizer digital agency.",
 
   problem: "Develop a scalable website with strong SEO foundations.",

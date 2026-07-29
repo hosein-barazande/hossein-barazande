@@ -3,6 +3,8 @@ import { ProjectDetail } from "@/types/project-detail";
 export const fuchsiaGallery: ProjectDetail = {
   slug: "fuchsia-gallery",
 
+  status: "Completed",
+
   overview: "Fashion e-commerce website for Fuchsia Gallery.",
 
   problem:

@@ -27,6 +27,8 @@ export interface ProjectDetail {
 
   solution: string;
 
+  status: string;
+
   technologies: string[];
 
   results: ProjectResult[];
@@ -40,4 +42,5 @@ export interface ProjectDetail {
   responsibilities: string[];
 
   metrics: ProjectMetric[];
+
 }

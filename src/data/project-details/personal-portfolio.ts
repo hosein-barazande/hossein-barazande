@@ -2,6 +2,8 @@ import { ProjectDetail } from "@/types/project-detail";
 
 export const personalPortfolio: ProjectDetail = {
   slug: "personal-portfolio",
+  
+  status: "In Development",
 
   overview:
     "A premium personal portfolio built with Next.js, React, TypeScript and Tailwind CSS, focused on performance, accessibility, scalability and technical SEO.",

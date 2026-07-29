@@ -14,9 +14,18 @@ interface ProjectSidebarProps {
     technologies: string[];
     github?: string;
     demo?: string;
+    status: string;
 }
 
-export default function ProjectSidebar({title, category, year, technologies, github, demo}: ProjectSidebarProps) {
+export default function ProjectSidebar({
+    status,
+    title,
+    category,
+    year,
+    technologies,
+    github,
+    demo,
+}: ProjectSidebarProps) {
     return (
         <Card className="sticky top-3 rounded-3xl border border-white/10 bg-white/[0.04] p-4 shadow-[0_20px_80px_rgba(0,0,0,.45)] backdrop-blur-2xl">
             <div className="space-y-8">
@@ -32,7 +41,7 @@ export default function ProjectSidebar({title, category, year, technologies, git
                     <div className="flex items-center justify-between">
                         <Text>Status</Text>
                         <span className="h-2 w-2 rounded-full bg-emerald-400" />
-                        <Badge>Completed</Badge>
+                        <Badge>{status}</Badge>
                     </div>
                     <div className="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
                     <div className="flex items-center justify-between">

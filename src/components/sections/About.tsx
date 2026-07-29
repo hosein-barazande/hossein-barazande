@@ -23,16 +23,17 @@ export default function About() {
                         <Heading level={3}>Full-Stack Development</Heading>
 
                         <Text className="mt-4">
-                            Building scalable web applications using React, Next.js, TypeScript and modern frontend
-                            architecture.
+                            Designing and building scalable, high-performance web applications with React, Next.js,
+                            TypeScript, Node.js and modern software architecture.
                         </Text>
                     </Card>
 
                     <Card className="p-8">
-                        <Heading level={3}>Technical SEO</Heading>
+                        <Heading level={3}>Senior SEO Specialist</Heading>
 
                         <Text className="mt-4">
-                            Improving visibility, Core Web Vitals and search performance through technical optimization.
+                            Driving organic growth through technical SEO, on-page optimization, Core Web Vitals,
+                            structured data and search performance strategies.
                         </Text>
                     </Card>
 
@@ -40,7 +41,8 @@ export default function About() {
                         <Heading level={3}>Performance & UX</Heading>
 
                         <Text className="mt-4">
-                            Creating fast, accessible and user-focused interfaces with attention to every interaction.
+                            Creating fast, accessible and user-centered experiences with a strong focus on performance,
+                            usability and clean interface design.
                         </Text>
                     </Card>
                 </div>

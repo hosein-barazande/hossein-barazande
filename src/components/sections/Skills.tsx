@@ -21,40 +21,51 @@ export default function Skills() {
                         <Heading level={3}>Frontend</Heading>
 
                         <Text className="mt-4">
-                            React • Next.js • TypeScript • JavaScript • HTML • CSS • Tailwind CSS
+                            React • Next.js • TypeScript • JavaScript (ES6+) • HTML5 • CSS3 • Tailwind CSS
                         </Text>
                     </Card>
 
                     <Card className="p-8">
                         <Heading level={3}>Backend</Heading>
 
-                        <Text className="mt-4">Node.js • Express • REST API • PHP • WordPress</Text>
+                        <Text className="mt-4">Node.js • Express • REST API • PHP • MySQL</Text>
+                    </Card>
+
+                    <Card className="p-8">
+                        <Heading level={3}>CMS & Platforms</Heading>
+
+                        <Text className="mt-4">WordPress • WooCommerce • Elementor • Tutor LMS</Text>
                     </Card>
 
                     <Card className="p-8">
                         <Heading level={3}>Technical SEO</Heading>
 
                         <Text className="mt-4">
-                            Core Web Vitals • Schema • Indexing • Crawl Budget • On-Page SEO • Performance
+                            Technical SEO • On-Page SEO • Core Web Vitals • Schema Markup • Google Search Console •
+                            Google Analytics • Screaming Frog • Keyword Research
                         </Text>
                     </Card>
 
                     <Card className="p-8">
                         <Heading level={3}>Tools</Heading>
 
-                        <Text className="mt-4">Git • GitHub • VS Code • Figma • Chrome DevTools • Postman</Text>
+                        <Text className="mt-4">Git • GitHub • VS Code • Cloudflare • Chrome DevTools • Postman</Text>
                     </Card>
 
                     <Card className="p-8">
                         <Heading level={3}>Deployment</Heading>
 
-                        <Text className="mt-4">Vercel • Cloudflare • cPanel • Linux • DNS Management</Text>
+                        <Text className="mt-4">
+                            Vercel • Cloudflare Pages • Cloudflare DNS • cPanel • Linux • DNS Management
+                        </Text>
                     </Card>
 
-                    <Card className="p-8">
+                    <Card className="p-8 xl:col-start-2">
                         <Heading level={3}>Currently Learning</Heading>
 
-                        <Text className="mt-4">AI Integration • Advanced Next.js • Cloud Architecture</Text>
+                        <Text className="mt-4">
+                            AI Integration • LLM Applications • Advanced Next.js • Cloudflare Workers
+                        </Text>
                     </Card>
                 </div>
             </Container>
