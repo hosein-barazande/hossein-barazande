@@ -13,10 +13,9 @@ export const seoCalculator: Project = {
 
   year: "2025",
 
-  category: "SEO Tool",
-
   categories:[
-    "Web Tools",
+    "Tool",
+    "SEO",
   ],
 
   featured: true,

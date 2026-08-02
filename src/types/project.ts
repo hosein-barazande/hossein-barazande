@@ -3,6 +3,17 @@ export type ProjectStatus =
     | "Completed"
     | "Live";
 
+    export type ProjectCategory =
+    | "Full-Stack"
+    | "Frontend"
+    | "Backend"
+    | "SEO"
+    | "WordPress"
+    | "E-commerce"
+    | "Corporate"
+    | "Portfolio"
+    | "Tool";
+
 export interface ProjectResult {
     title: string;
     description: string;
@@ -38,8 +49,6 @@ export interface Project {
     imageAlt: string;
 
     year: string;
-
-    category: string;
 
     categories: string[];
 

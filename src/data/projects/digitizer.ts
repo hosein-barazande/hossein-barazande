@@ -14,13 +14,11 @@ export const digitizer: Project = {
   imageAlt: "Own Compony Website built with php",
 
   year: "2025",
-
-  category: "Company Website",
-
+  
   categories:[
-    "full Stack",
+    "Full Stack",
     "Portfolio",
-    "seo",
+    "SEO",
   ],
 
   featured: true,

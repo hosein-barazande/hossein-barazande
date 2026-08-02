@@ -28,12 +28,10 @@ export const fuchsiaGallery: Project = {
 
   year: "2025",
 
-  category: "E-commerce website",
-
   categories:[
     "wordpress",
     "woocommerce",
-    "seo",
+    "SEO",
   ],
 
   featured: true,

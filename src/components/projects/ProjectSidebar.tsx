@@ -9,7 +9,7 @@ import Text from "@/components/shared/typography/Text";
 
 interface ProjectSidebarProps {
     title: string;
-    category: string;
+    categories: string[];
     year: string;
     technologies: string[];
     github?: string;
@@ -20,7 +20,7 @@ interface ProjectSidebarProps {
 export default function ProjectSidebar({
     status,
     title,
-    category,
+    categories,
     year,
     technologies,
     github,
@@ -47,7 +47,11 @@ export default function ProjectSidebar({
                     <div className="flex items-center justify-between">
                         <Text>Category</Text>
 
-                        <Text>{category}</Text>
+                        <div className="flex flex-wrap justify-end gap-2">
+                            {categories.map((category) => (
+                                <Badge key={category}>{category}</Badge>
+                            ))}
+                        </div>
                     </div>
                     <div className="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
                     <div className="flex items-center justify-between">

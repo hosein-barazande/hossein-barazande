@@ -16,12 +16,10 @@ imageAlt: "Personal Portfolio Website",
 
 featured: true,
 
-category: "Portfolio",
-
 categories:[
-  "full Stack",
+  "Full Stack",
   "Portfolio",
-  "seo",
+  "SEO",
 ],
 
 year: "2026",

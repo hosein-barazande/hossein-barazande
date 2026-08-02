@@ -7,6 +7,7 @@ import Text from "@/components/shared/typography/Text";
 import ProjectGrid from "@/components/projects/ProjectGrid";
 import ProjectHeader from "@/components/projects/ProjectHeader";
 import ProjectsPageBackground from "@/components/projects/ProjectsPageBackground";
+import ProjectsExplorer from "@/components/projects/ProjectsExplorer";
 
 import {projects} from "@/data/projects";
 
@@ -28,7 +29,7 @@ export default function ProjectsPage() {
                     </div>
 
                     <div className="mt-20">
-                        <ProjectGrid projects={projects} />
+                        <ProjectsExplorer projects={projects} />
                     </div>
                 </Container>
             </Section>

@@ -15,10 +15,18 @@ interface ProjectCardProps {
     image: string;
     technologies: string[];
     year?: string;
-    category?: string;
+    categories: string[];
 }
 
-export default function ProjectCard({slug, title, description, image, technologies, year, category}: ProjectCardProps) {
+export default function ProjectCard({
+    slug,
+    title,
+    description,
+    image,
+    technologies,
+    year,
+    categories,
+}: ProjectCardProps) {
     return (
         <Link href={`/projects/${slug}`} className="block h-full w-full">
             <Card className="flex h-full w-full flex-col p-6">
@@ -45,9 +53,11 @@ export default function ProjectCard({slug, title, description, image, technologi
 
                 {/* Category */}
 
-                {category && (
-                    <div className="mt-4">
-                        <Badge>{category}</Badge>
+                {categories && (
+                    <div className="mt-4 flex flex-wrap gap-2">
+                        {categories.map((category) => (
+                            <Badge key={category}>{category}</Badge>
+                        ))}
                     </div>
                 )}
 

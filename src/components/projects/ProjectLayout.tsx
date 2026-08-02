@@ -24,7 +24,7 @@ export default function ProjectLayout({project}: ProjectLayoutProps) {
 
             <ProjectHero
                 title={project.title}
-                category={project.category}
+                categories={project.categories}
                 year={project.year}
                 description={project.overview}
             />
@@ -33,7 +33,7 @@ export default function ProjectLayout({project}: ProjectLayoutProps) {
                 sidebar={
                     <ProjectSidebar
                         title={project.title}
-                        category={project.category}
+                        categories={project.categories}
                         year={project.year}
                         technologies={project.technologies}
                         github={project.links.github}

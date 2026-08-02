@@ -6,12 +6,12 @@ import Text from "@/components/shared/typography/Text";
 
 interface ProjectHeroProps {
     title: string;
-    category: string;
+    categories: string[];
     year: string;
     description: string;
 }
 
-export default function ProjectHero({title, category, year, description}: ProjectHeroProps) {
+export default function ProjectHero({title, categories, year, description}: ProjectHeroProps) {
     return (
         <section className="relative overflow-hidden pt-28 pb-14 lg:pt-28 lg:pb-16">
             <div className="absolute inset-0 -z-10">
@@ -23,7 +23,11 @@ export default function ProjectHero({title, category, year, description}: Projec
             </div>
             <Container>
                 <div className="mx-auto flex max-w-5xl flex-col items-center text-center">
-                    <Badge>{category}</Badge>
+                    <div className="mt-4 flex flex-wrap gap-2">
+                        {categories.map((category) => (
+                            <Badge key={category}>{category}</Badge>
+                        ))}
+                    </div>
 
                     <Heading
                         level={1}
